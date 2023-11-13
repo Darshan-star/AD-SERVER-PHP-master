@@ -9,16 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>AD Server</title>
+    <title>AD Server</title> 
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
 
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <style>
@@ -32,7 +32,7 @@
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+    background-color: #3e8e41; 
 }
 
 .dropdown {
@@ -44,7 +44,7 @@
     display: none;
     position: absolute;
     background-color: #032731;
-    min-width: 160px;
+    min-width: 160px; 
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -61,7 +61,7 @@
 .show {display:block;}
 </style>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --> 
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -74,7 +74,7 @@
 
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom"> 
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -82,7 +82,7 @@
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="#page-top">Ad Server</a>
-            </div>
+            </div> 
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -98,7 +98,7 @@
                         <a href="#contact">Pricing</a>
                     </li>
                      <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#about">About</a> 
                     </li>
 
                     <li class="page-scroll">
@@ -114,7 +114,7 @@
                     </li>
                      <li class="page-scroll">
                         <div class="dropdown">
-                              <button onclick="myFunction1()" class="dropbtn">Sign Up</button>
+                              <button onclick="myFunction1()" class="dropbtn">Sign Up</button> 
                               <div id="myDropdown1" class="dropdown-content">
                                 <a href="advertiser/adsignup.php">Advertiser Signup</a>
                                 <a href="client/clientsignup.php">Client Signup</a>
@@ -126,7 +126,7 @@
                     <script>
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
-function myFunction() {
+function myFunction() { 
     document.getElementById("myDropdown").classList.toggle("show");
 }
 function myFunction1() {
@@ -140,7 +140,7 @@ window.onclick = function(event) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
+      var openDropdown = dropdowns[i]; 
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
       }
